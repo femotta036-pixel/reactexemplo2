@@ -1,13 +1,15 @@
-import Aluno from "./components/Aluno"
-import Dados from './components/Dados'
+import Aluno from "./components/Aluno";
+import Dados from './components/Dados';
+import Contador from "./components/Contador";
 
-const Dados = () => {
+const App = () => {
   return (
     <>
       <Aluno nome="Fiap" idade="18" />
-      <Dados usuarios="Dev" email="dev@gmail.com" />
+      <Dados usuario="Dev" email="dev@gmail.com" />
+      <Contador/>
     </>
   )
 }
 
-export default Dados
+export default App
