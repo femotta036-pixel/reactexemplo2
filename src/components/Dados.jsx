@@ -1,9 +1,10 @@
 
 
-const Dados = () => {
+const Dados = ({usuario, email}) => {
   return (
     <>
-      <p>Nome de Usuario:(usuario)</p>
+      <p>Nome de Usuario: {usuario}</p>
+      <p>E-mail do Usuario: {email}</p>
     </>
   )
 }
