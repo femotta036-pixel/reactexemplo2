@@ -1,11 +1,13 @@
-import Aluno from  './components/Aluno';
+import Aluno from "./components/Aluno"
+import Dados from './components/Dados'
 
-const App = () => {
+const Dados = () => {
   return (
     <>
-      <Aluno/>
+      <Aluno nome="Fiap" idade="18" />
+      <Dados usuarios="Dev" email="dev@gmail.com" />
     </>
   )
 }
 
-export default App
+export default Dados
